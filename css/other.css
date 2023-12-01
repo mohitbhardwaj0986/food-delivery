@@ -1,0 +1,193 @@
+/* 
+about us page css */
+
+.about-container {
+    background-image: url(https://websitedemos.net/deli-restaurant-02/wp-content/uploads/sites/637/2020/08/about-section-bg-img.jpg);
+    height: 60vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.about-overlay {
+    height: 60vh;
+    width: 100vw;
+    background-color: rgba(33, 32, 32, 0.518);
+    position: absolute;
+}
+
+.about-first {
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.about-first :nth-child(1) {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+    max-width: 40%;
+    text-align: center;
+}
+
+.about-first :nth-child(2) {
+    max-width: 60%;
+    color: #7a7a7a;
+}
+
+@media screen and (max-width:700px) {
+    .about-first {
+        flex-direction: column;
+    }
+
+    .about-first :nth-child(1) {
+        max-width: 94%;
+        padding: 0 3%;
+    }
+
+    .about-first :nth-child(2) {
+        max-width: 94%;
+        padding: 0 3%;
+    }
+}
+
+.about-second-cofirst h3 {
+    padding-top: 20px;
+}
+
+.about-second-cofirst p {
+    color: #7a7a7a;
+    padding: 30px 0;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.about-second {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-second img {
+    padding-top: 20px;
+ 
+}
+
+.about-second-cofirst {
+    padding: 0 10px;
+}
+
+@media screen and (max-width:900px) {
+    .about-second {
+        flex-direction: column;
+    }
+
+    .about-second img {
+        width: 100%;
+    }
+}
+
+.about-third {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.about-third-cofirst :nth-child(1) {
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 200;
+    max-width: 40%;
+    max-width: 100%;
+}
+
+.btn {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: rgba(23, 23, 23, 0);
+    border: 1px solid #fff;
+    font-weight: 800;
+}
+
+.about-third-cofirst {
+    width: 40%;
+    padding-left: 2%;
+}
+
+.about-third-second {
+    width: 28%;
+
+}
+
+.about-third-cofirst img {
+    width: 100%;
+}
+
+.about-third-second div {
+    padding: 5px 0;
+    text-align: center;
+}
+
+.about-third-second img {
+    width: 100%;
+}
+
+@media screen and (max-width:600px) {
+    .about-third {
+        flex-direction: column;
+    }
+
+    .about-third-cofirst {
+        width: 90%;
+        padding: 20px 5%;
+
+    }
+
+    .about-third-second {
+        width: 90%;
+        padding: 20px 5%;
+    }
+}
+.about-forth {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 70px 3% ;
+    background-color: #e9ecef;
+}
+
+.about-forth :nth-child(1){
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+
+    text-align: center;
+    width: 54%;
+}
+.about-forth :nth-child(2){
+   width: 40%;
+    color: #7a7a7a;
+    font-size: 18px;
+
+}
+@media screen and (max-width:600px){
+    .about-forth {
+        flex-direction: column;
+      
+    }
+    .about-forth :nth-child(1){
+     width:100%;
+    }
+    .about-forth :nth-child(2){
+       width: 100%;
+       
+    }
+}
+
+/* menu css start */

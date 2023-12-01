@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300&family=Open+Sans&family=Poppins:wght@700&family=Roboto+Flex:opsz@8..144&family=Ubuntu&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+.container {
+    background-image: url(/img/homepage-hero-bg-img.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.overlay {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(33, 32, 32, 0.518);
+    position: absolute;
+}
+
+nav {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+
+nav img {
+    width: 150px;
+
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    position: relative;
+
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+@media screen and (max-width:735px) {
+
+    ul {
+        display: none;
+        margin: auto;
+    }
+
+    .container {
+        background-position: center;
+    }
+
+    .section :nth-child(2) {
+        font-size: 20px;
+    }
+}
+
+nav .btn {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: rgba(23, 23, 23, 0);
+    border: 1px solid #fff;
+    font-weight: 800;
+}
+
+nav .btn:hover {
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+    font-weight: 800;
+}
+
+.section {
+    color: #fff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 75vw;
+    margin: auto;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.section :nth-child(1) {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section :nth-child(2) {
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+}
+
+.section :nth-child(3) {
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+@media screen and (max-width:500px) {
+    .section :nth-child(2) {
+        font-size: 30px;
+    }
+
+    .section :nth-child(3) {
+        font-size: 15px;
+    }
+
+    .section :nth-child(1) {
+        font-size: 15px;
+    }
+
+    .section {
+        padding-top: 100px;
+    }
+
+    .first {
+        flex-direction: column;
+    }
+
+    .first img {
+        width: 100%;
+    }
+
+}
+
+.first {
+    display: flex;
+    max-width: 96%;
+    margin: auto;
+    padding: 90px 0 0 0;
+}
+
+.coFirst :nth-child(1) {
+    font-size: 50px;
+   
+}
+
+.coFirst :nth-child(2) {
+    font-size: 18px;
+    max-width: 500px;
+    text-align: justify;
+    padding: 30px 0;
+}
+
+.first h3 {
+    padding: 30px 0;
+}
+
+.coSecond :nth-child(3) {
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width:500px) {
+    .coFirst :nth-child(2) {
+        max-width: 98%;
+        padding: 0 1%;
+    }
+
+    .third {
+        flex-direction: column;
+    }
+}
+
+.two {
+    background-color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    color: #fff;
+
+}
+
+.two :nth-child(1) {
+    padding: 80px 0 30px 0;
+}
+
+.two :nth-child(2) {
+    font-size: 50px;
+    text-align: center;
+}
+
+.two :nth-child(3) {
+    font-size: 17px;
+    max-width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.third {
+    display: flex;
+    background-color: #1a1a1a;
+    color: #fff;
+    justify-content: space-between;
+    max-width: 94%;
+    margin: auto;
+}
+
+.blackContainer {
+    background-color: #1a1a1a;
+    color: #fff;
+    max-width: 100%;
+}
+
+.third h4 {
+    padding: 20px 0;
+}
+
+.third div {
+    color: #7a7a7a;
+    border-bottom: 1px solid #7a7a7a;
+    padding-bottom: 10px;
+}
+
+.blackContainer .btn {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: rgba(23, 23, 23, 0);
+    border: 1px solid #fff;
+    font-weight: 800;
+    margin: 80px auto;
+    text-align: center;
+
+}
+
+.menubtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forth {
+    background-image: url(https://websitedemos.net/deli-restaurant-02/wp-content/uploads/sites/637/2020/08/signeture-bg.jpg);
+    height: 50vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+    box-shadow: none;
+}
+
+.overla {
+    height: 50vh;
+    width: 100vw;
+    background-color: #1a1a1aa9;
+
+}
+
+.forth div {
+
+    position: absolute;
+}
+
+.forth :nth-child(2) {
+    top: 160px;
+    margin-left: 30px;
+}
+
+.forth :nth-child(3) {
+    top: 200px;
+    margin-left: 30px;
+    font-size: 50px;
+
+}
+
+.forth :nth-child(4) {
+    top: 280px;
+    max-width: 62vw;
+    margin-left: 30px;
+}
+
+.fifth {
+    max-width: 94%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.fifth img {
+    width: 378px;
+    margin-top: 20px
+}
+
+@media screen and (max-width:500px) {
+
+    .forth :nth-child(2) {
+        top: 60px;
+
+    }
+
+    .forth :nth-child(3) {
+        top: 80px;
+        margin-left: 30px;
+        font-size: 40px;
+
+    }
+
+    .forth :nth-child(4) {
+        top: 180px
+    }
+
+    .fifth {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .fifth img {
+        width: 100%;
+        margin-left: 15px;
+        align-items: center;
+
+    }
+
+}
+
+.header {
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #1a1a1a;
+    gap: 20px;
+    color: #fff;
+    border-bottom: 1px solid #7a7a7a;
+}
+
+.header div {
+    padding: 20px 20px 150px 20px;
+    text-align: justify;
+}
+
+.header h2 {
+    padding-bottom: 14px;
+}
+
+@media screen and (max-width:500px) {
+    .header {
+        /* flex-direction: column; */
+        grid-template-columns: none;
+    }
+
+    .header div {
+
+        padding: 0 20px;
+    }
+
+    .header h2 {
+        padding-bottom: 15px;
+    }
+}
+
+.hedUl {
+    display: inline;
+}
+
+.hedUl li {
+    padding: 7px 20px;
+}
+
+.bottomheader {
+    height: 70px;
+    width: 100vw;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.bottomheader :nth-child(1) {
+    padding: 15px 0;
+}
