@@ -72,7 +72,7 @@ about us page css */
 
 .about-second img {
     padding-top: 20px;
- 
+
 }
 
 .about-second-cofirst {
@@ -154,15 +154,16 @@ about us page css */
         padding: 20px 5%;
     }
 }
+
 .about-forth {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 70px 3% ;
+    padding: 70px 3%;
     background-color: #e9ecef;
 }
 
-.about-forth :nth-child(1){
+.about-forth :nth-child(1) {
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
     font-weight: 200;
@@ -170,23 +171,27 @@ about us page css */
     text-align: center;
     width: 54%;
 }
-.about-forth :nth-child(2){
-   width: 40%;
+
+.about-forth :nth-child(2) {
+    width: 40%;
     color: #7a7a7a;
     font-size: 18px;
 
 }
-@media screen and (max-width:600px){
+
+@media screen and (max-width:600px) {
     .about-forth {
         flex-direction: column;
-      
+
     }
-    .about-forth :nth-child(1){
-     width:100%;
+
+    .about-forth :nth-child(1) {
+        width: 100%;
     }
-    .about-forth :nth-child(2){
-       width: 100%;
-       
+
+    .about-forth :nth-child(2) {
+        width: 100%;
+
     }
 }
 
@@ -234,42 +239,49 @@ about us page css */
     position: absolute;
 }
 
-.testimonial-first{
+.testimonial-first {
     display: flex;
     justify-content: space-around;
     padding: 80px 5%;
     background-color: #e9ecef;
 }
-.testimonial-first p{
-   color: #7a7a7a; 
-   
-}
-.testimonial-cofirts{
-width: 30%;
-}
-.testimonial-cosecond{
-width: 60%;
-}
-.testimonial-cofirts div{
-    font-family: 'Poppins', sans-serif;
-    font-size: 40px;
-   
-}
-@media screen and (max-width:600px){
-    .testimonial-cofirts{
-        width: 95%;
-        padding: 20px 0;
-        }
-        .testimonial-cosecond{
-        width: 95%;
-        }
-        .testimonial-first{
-            flex-direction: column;
-            padding: 30px;
-        }
+
+.testimonial-first p {
+    color: #7a7a7a;
+
 }
 
-.testimonial-second{
+.testimonial-cofirts {
+    width: 30%;
+}
+
+.testimonial-cosecond {
+    width: 60%;
+}
+
+.testimonial-cofirts div {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+
+}
+
+@media screen and (max-width:600px) {
+    .testimonial-cofirts {
+        width: 95%;
+        padding: 20px 0;
+    }
+
+    .testimonial-cosecond {
+        width: 95%;
+    }
+
+    .testimonial-first {
+        flex-direction: column;
+        padding: 30px;
+    }
+}
+
+.testimonial-second {
     display: flex;
     justify-content: space-around;
     background-color: #e9ecef;
@@ -277,26 +289,158 @@ width: 60%;
     padding: 0 5%;
     margin: auto;
 }
-.testimonial-second p{
+
+.testimonial-second p {
     color: #7a7a7a;
     padding: 30px 0;
 }
-.testimonial-second-cofirst{
+
+.testimonial-second-cofirst {
     width: 30%;
     padding-right: 3.33%;
 }
-@media screen and (max-width:600px){
-    .testimonial-second{
+
+@media screen and (max-width:600px) {
+    .testimonial-second {
         flex-direction: column;
     }
-    .testimonial-second-cofirst{
+
+    .testimonial-second-cofirst {
         width: 90%;
-       
+
     }
 }
-.testimonial-second-cofirst img{
+
+.testimonial-second-cofirst img {
     width: 30px;
 }
-.testimonial-second-cofirst h5{
+
+.testimonial-second-cofirst h5 {
     padding-bottom: 20px;
+}
+
+/* contact css */
+.contact-container {
+    background-image: url(/img/contact-img1.jpg);
+    height: 60vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.contact-overlay {
+    height: 60vh;
+    width: 100vw;
+    background-color: rgba(33, 32, 32, 0.518);
+    position: absolute;
+}
+
+#contact {
+    color: #000;
+    background-color: #e9ecef;
+
+}
+
+.contact-section {
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 75vw;
+    margin: auto;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.contact-section:nth-child(1) {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contact-section :nth-child(2) {
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+}
+
+.contact-section :nth-child(3) {
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #7a7a7a;
+}
+
+.contact-btn {
+    padding: 10px 50px;
+    background-color: rgba(23, 23, 23, 0);
+    border: 2px solid #010101;
+    font-weight: 800;
+    margin: 40px auto;
+    text-align: center;
+transition: 0.5s;
+}
+
+.contact-btn:hover {
+    background-color: rgba(28, 28, 28, 0.979);
+     color: #ffffff;
+}
+.contact-section :nth-child(5){
+font-size: 15px;
+font-weight: bold;
+}
+.contact-section :nth-child(6){
+    font-size: 50px;
+    font-weight: bold;
+}
+.contact-section :nth-child(7){
+    padding-bottom: 20px;
+    color: #b1b1b1;
+
+}
+.contact-mapbox{
+    width: 60%;
+    height: 600px;
+    background-color: #7a7a7a;
+}
+#form{
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+}
+.contact-section-first{
+    display: flex;
+    justify-content: space-between;
+}
+.form-input{
+    padding: 10px 15px;
+    font-size: 17px;
+    width: 300px;
+    margin: 0 10px 20px 0;
+}
+#form img{
+margin: -300px 0 0 0;
+}
+.contact-section-first{
+    background-color: #e9ecef;
+}
+@media screen and (max-width:1000px){
+    #form img{
+        margin: -150px 0 0 0;
+        }
+}
+@media screen and (max-width:800px){
+    .contact-section-first{
+      flex-direction: column;
+    }
+    .contact-mapbox{
+        width: 100%; 
+    }
+    #form img{
+     display: none;
+    }
+    #form h1{
+    margin-top: 20px;
+    }
 }
