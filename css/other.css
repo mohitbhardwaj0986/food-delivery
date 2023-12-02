@@ -191,3 +191,112 @@ about us page css */
 }
 
 /* menu css start */
+
+.menu-container {
+    background-image: url(/img/menu-img1.jpg);
+    height: 60vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.menu-overlay {
+    height: 60vh;
+    width: 100vw;
+    background-color: rgba(33, 32, 32, 0.518);
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+/* testimonial css  */
+.testimonial-container {
+    background-image: url(/img/testimonail-img1.jpg);
+    height: 60vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.testimonial-overlay {
+    height: 60vh;
+    width: 100vw;
+    background-color: rgba(33, 32, 32, 0.518);
+    position: absolute;
+}
+
+.testimonial-first{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 5%;
+    background-color: #e9ecef;
+}
+.testimonial-first p{
+   color: #7a7a7a; 
+   
+}
+.testimonial-cofirts{
+width: 30%;
+}
+.testimonial-cosecond{
+width: 60%;
+}
+.testimonial-cofirts div{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+   
+}
+@media screen and (max-width:600px){
+    .testimonial-cofirts{
+        width: 95%;
+        padding: 20px 0;
+        }
+        .testimonial-cosecond{
+        width: 95%;
+        }
+        .testimonial-first{
+            flex-direction: column;
+            padding: 30px;
+        }
+}
+
+.testimonial-second{
+    display: flex;
+    justify-content: space-around;
+    background-color: #e9ecef;
+    width: 100%;
+    padding: 0 5%;
+    margin: auto;
+}
+.testimonial-second p{
+    color: #7a7a7a;
+    padding: 30px 0;
+}
+.testimonial-second-cofirst{
+    width: 30%;
+    padding-right: 3.33%;
+}
+@media screen and (max-width:600px){
+    .testimonial-second{
+        flex-direction: column;
+    }
+    .testimonial-second-cofirst{
+        width: 90%;
+       
+    }
+}
+.testimonial-second-cofirst img{
+    width: 30px;
+}
+.testimonial-second-cofirst h5{
+    padding-bottom: 20px;
+}
