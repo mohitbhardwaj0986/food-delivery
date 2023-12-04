@@ -35,7 +35,6 @@ nav {
 
 nav img {
     width: 150px;
-
 }
 
 ul {
@@ -56,14 +55,48 @@ ul li a {
     color: #fff;
 }
 
-
-
+#mobilenav ul{
+    display: none;
+}
 
 @media screen and (max-width:735px) {
-
-    ul {
+    #mobilenav{
+        width: 100%;
+        height: 600px;
+        background-color: rgba(130, 157, 157, 0.273);
+        transition: 1s;
         display: none;
+    }
+    #mobilenav ul{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+    }
+    #icon1{
+        width: 37px;
+        right: 25px;
+        position: absolute;
+        transition: 1s;
+        display: block;
+    }
+    #icon2{
+        width: 35px;
+        position: relative;
+      transition: 1s;
+      display: block;
+    }
+     nav ul {
+        display: none;
+        position: absolute;
         margin: auto;
+        top: 60px;
+     font-size: 20px;
+    }
+    nav ul li{
+        padding-bottom: 30px;
     }
 
     .container {
@@ -100,6 +133,7 @@ nav .btn:hover {
     margin: auto;
     text-align: center;
     padding-top: 150px;
+    transition: 1s;
 }
 
 .section :nth-child(1) {
@@ -117,7 +151,16 @@ nav .btn:hover {
     font-family: 'Ubuntu', sans-serif;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:700px) {
+    nav img {
+        width: 100px;
+    }
+    nav .btn {
+        
+        padding: 5px 10px;
+        color: #fff;
+        font-weight: 300;
+    }
     .section :nth-child(2) {
         font-size: 30px;
     }
@@ -171,7 +214,7 @@ nav .btn:hover {
     padding-bottom: 30px;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:700px) {
     .coFirst :nth-child(2) {
         max-width: 98%;
         padding: 0 1%;
@@ -308,7 +351,7 @@ nav .btn:hover {
     margin-top: 20px
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:700px) {
 
     .forth :nth-child(2) {
         top: 60px;
