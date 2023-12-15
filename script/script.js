@@ -33,8 +33,18 @@ function myFunction(x) {
 
   let x = window.matchMedia("(max-width: 700px)")
 
-  myFunction(x);    
+  myFunction(x);        
   
   x.addEventListener("change",()=>{
     myFunction(x);
   });
+
+
+
+  const contactbtn  = document.getElementById('submit').addEventListener('click', ()=>{
+  
+setTimeout(() => {
+    document.getElementById('form').reset()
+    
+}, 500);   
+  })
